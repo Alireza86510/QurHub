@@ -1,0 +1,18 @@
+.gradient-custom {
+    background-color: black;     
+}
+.in{
+    background-color: #ff9000;
+    color: black;
+    width: 53px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 61%;
+}
+img{
+    width: 130px;
+}
+#hoverbtn:hover{
+background-color: #ff9000;
+color: black;
+}
