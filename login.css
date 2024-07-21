@@ -9,3 +9,10 @@
     text-align: center;
     margin-left: 61%;
 }
+img{
+    width: 130px;
+}
+#hoverbtn:hover{
+background-color: #ff9000;
+color: black;
+}
