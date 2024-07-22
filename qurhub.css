@@ -41,24 +41,42 @@ body{
     color: black;
     background-color: #ff9000;
     border: 2px solid black;
+    padding: 1%;
 }
 .usericon-div{
     margin-left: 23.2%;
     width: 30px;
 }
-.audioall{
+.audio{
     text-align: center;
     padding-top: 8px;
     background-color: #313131;
-    width: 320px;
-    height: 100px;
     border-radius: 5px;
+    width: 430px;
     border:3px solid #ff9000;
     color: #ff9000;
+}
+.audio:hover{
+    box-shadow:  17px 17px 34px #242424,
+                 -17px -17px 34px #3e3e3e;
 }
 .audio-section{
     margin-top: 80px;
 }
 .footer{
     margin-top: 100px;
+}
+.box{
+    margin-top: 60px;
+    background-color: #313131;
+}
+.pic{
+    margin-left: 40px;
+}
+.picr{
+    margin-left: 240px;
+    /* margin-left: 40px; */
+}
+.audio{
+    margin: 5px;
 }
