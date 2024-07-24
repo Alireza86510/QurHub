@@ -7,15 +7,22 @@ body{
 .section{
     margin: 0px 6%;
 }
+.header{
+    width: 100%;
+}
+.top{
+    margin-left: 10%;
+    width: 1400px;
+}
 .toptxt{
     color: #ff9000;
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
+    /* max-width:16%; */
+    
 }
-.top{
-    margin-left: 10%;
-}
+
 .sectionheader{
     background-color: #313131;
     width: 100%;
@@ -36,12 +43,18 @@ body{
     margin-top: 8px;
 }
 .search{
-    width: 117%;
+    width: 100%;
     border-radius: 20px;
-    color: black;
-    background-color: #ff9000;
-    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 2px solid #ff9000;
     padding: 1%;
+    margin-left: 10px;
+}
+.search:hover{
+    color: #ffffff;
+    background-color: #ff9000;
+    border: 2px solid #000000;
 }
 .usericon-div{
     margin-left: 23.2%;
@@ -79,4 +92,221 @@ body{
 }
 .audio{
     margin: 5px;
+}
+.whosection{
+    text-align: center;
+    
+}
+.who{
+    background-color: #313131;
+    text-align: center;
+    margin-top: 3%;
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 7px;
+    margin-left: 25%;
+    color: white;
+}
+.email{
+    color: #ff9000;
+    margin:0 10px;
+}
+.userpic{
+    background-image: url(banner.jpg);
+    background-size: 100% 100%;
+    width: 80%;
+    height: 300px;
+    margin: 3% 10% 0;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.editpic{
+    width: 40px;
+    margin-top: 250px;
+    margin-left: 1050px;
+    background-color: #ff9000;
+}
+.userimg{   
+    margin-top: 133px;
+    margin-left: 15px;
+    border: 1px solid #ff9000;
+    box-shadow:  7px 7px 14px #5a5a5a,
+             -7px -7px 14px #313131;
+    background-color: #ff9000;
+    padding: 0;
+    width: 160px;
+}
+.userbox{
+    display: inline;
+}
+.control{
+    background-color: #313131;
+    width: 80%;
+    height: 40px;
+    margin-top: 0;
+    margin-left: 10%;
+}
+.userimgi{
+    width: 100%;
+    margin-left: 0px;
+}
+.controlbutton{
+    color: #000000;
+    background-color: #ff9000;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;    
+    border-radius: 10px;
+    padding-left: 3px;
+}
+.divcontrol2{
+    margin-left: 25px;
+    padding-top: 6px;
+    width: 90px;
+}
+.divcontrol{
+    margin-left: 0px;
+    padding-top: 6px;
+    width: 90px;
+}
+.divs{
+    width: 150px;
+    text-align: center;
+}
+.card {
+    background: #313131;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #ff9000;
+    border: 2px solid #ff9000;
+    transition: all .5s ease;
+    padding: 0px;
+    margin: 7px;
+    
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .image {
+    margin-left: 0;
+    width: 300px;
+    height: 148px;
+    background-image: url(he\ is\ read\ quran);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+}
+  
+  .save {
+    background: #ff9000;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .see-more {
+    background: #ff9000;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .save, .see-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  .save__icon, .see-more__icon {
+    width: 15px;
+    fill: white;
+  }
+  
+  .card__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 15px;
+    gap: 3px;
+  }
+  
+  .page {
+    font-size: 13px;
+    font-weight: 100;
+  }
+  
+  .title {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+  }
+  
+  .content {
+    font-size: 14px;
+  }
+  
+  .card:hover {
+    box-shadow: 5px 5px 10px 0px #ff9000;
+  }
+  
+  .card:hover .icons {
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .card:hover .image {
+    filter: brightness(.8);
+  }
+  
+  .card:hover .title {
+    color: #ff9000;
+  }
+  .dirin{
+    text-align: center;
+  }
+  .buttonun{
+    text-align: center;
+}
+.button{
+    background-color: #313131;
+    width: 100px;
+    border: 1px solid #ff9000;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #ff9000;
+    color: #000000;
+    border: #313131;
+}
+.footr{
+    text-align: center;
+    color: #ffffffb8;
+    margin: 0px 40px 90px 40px;
+}
+.foot{
+    border-top: 1px solid #ff9000;
+    height: 80px;
+}
+.pfoot{ 
 }
